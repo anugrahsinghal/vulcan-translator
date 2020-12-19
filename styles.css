@@ -7,12 +7,14 @@
 
 :root {
   --primary-color: #3b82f6;
+  --bg-color: #EFF6FF
 }
 
 body {
   margin: 0;
   font-family: "Comfortaa", cursive;
   font-size: xx-large;
+  background-color: var(--bg-color);
 }
 
 header {
@@ -25,6 +27,7 @@ header {
 #user-input {
   font-size: xx-large;
   font-family: "Indie Flower", cursive;
+  background-color: var(--bg-color);
 }
 
 .text {
