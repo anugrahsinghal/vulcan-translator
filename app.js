@@ -2,7 +2,7 @@ let btnTranslate = document.querySelector("#btn-translate")
 
 btnTranslate.addEventListener("click", translateTextToBanana)
 
-const serverAPI = "https://api.funtranslations.com/translate/minion.json"
+const serverAPI = "https://api.funtranslations.com/translate/vulcan.json"
 
 function translateTextToBanana() {
     let text = document.querySelector("#user-input");
@@ -16,7 +16,7 @@ function translateTextToBanana() {
         updateTranslation(json.contents.translated)
     })
     .catch(err => {
-        console.log(err)
+        console.error(err)
         updateTranslation("Some error occured")
     })
 

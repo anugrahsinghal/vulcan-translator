@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600&display=swap");
 
 /* content padding border margin  */
 #translated-text {
@@ -7,26 +6,25 @@
 }
 
 :root {
-  --primary-color: #FBBF24;
+  --primary-color: #3b82f6;
 }
 
-body{ 
-    margin: 0;
-    font-family: 'Indie Flower', cursive;
-    font-size: xx-large;
+body {
+  margin: 0;
+  font-family: "Comfortaa", cursive;
+  font-size: xx-large;
 }
 
 header {
-    background-color: var(--primary-color);
-    padding: 1rem;
-    font-size: x-large;
-    font-weight: bold;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  font-size: x-large;
+  font-weight: bold;
 }
 
-
 #user-input {
-    font-size: xx-large;
-    font-family: 'Indie Flower', cursive;
+  font-size: xx-large;
+  font-family: "Indie Flower", cursive;
 }
 
 .text {
@@ -43,7 +41,12 @@ header {
 }
 
 #btn-translate {
-    margin-top: 0%;
+  background-color: var(--primary-color);
+  margin: 0rem 0rem 1rem 0rem;
+  padding: 1rem;
+  font-family: "Comfortaa", cursive;
+  font-size: large;
+  border: none;
 }
 
 .link {
@@ -63,22 +66,22 @@ header {
 
 /* footer */
 .footer {
-    background-color: var(--primary-color);
-    padding: 1rem;
-    color: var(--text-color-default);
-    text-align: center;
-    margin-top: 2rem;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  color: var(--text-color-default);
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .footer .heading {
-    font-weight: bold;
-    font-size: large;
+  font-weight: bold;
+  font-size: large;
 }
 
 .footer ul {
-    padding-inline-start: 0px;
+  padding-inline-start: 0px;
 }
 
 .footer .link {
-    color: var(--text-color-default);
+  color: var(--text-color-default);
 }
