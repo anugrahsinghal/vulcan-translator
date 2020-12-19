@@ -6,7 +6,7 @@
 }
 
 :root {
-  --primary-color: #3b82f6;
+  --primary-color: #A5B4FC;
   --bg-color: #EFF6FF
 }
 
@@ -22,6 +22,8 @@ header {
   padding: 1rem;
   font-size: x-large;
   font-weight: bold;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 #user-input {
@@ -32,8 +34,8 @@ header {
 
 .text {
   border: 1px solid black;
-  width: 450px;
-  height: 150px;
+  width: 40%;
+  height: 20vh;
   text-align: center;
 }
 
@@ -70,15 +72,18 @@ header {
 /* footer */
 .footer {
   background-color: var(--primary-color);
-  padding: 1rem;
+  /* padding: 1rem; */
   color: var(--text-color-default);
   text-align: center;
   margin-top: 2rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 .footer .heading {
   font-weight: bold;
   font-size: large;
+  padding-top: 0.5rem;
 }
 
 .footer ul {
